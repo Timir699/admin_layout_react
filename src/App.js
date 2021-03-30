@@ -1,12 +1,13 @@
 import logo from './logo.svg';
-import Components from './components/Components'
+
+import Sections from './sections/Sections'
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App" >
-      <Components />
+    <div className="App">
+      <Sections />
     </div>
   )
 }
